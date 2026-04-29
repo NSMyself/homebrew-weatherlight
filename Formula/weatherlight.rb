@@ -1,10 +1,10 @@
 class Weatherlight < Formula
   desc "Private, automatic, searchable memory for your bookmarks"
   homepage "https://weatherlight.app"
-  url "https://github.com/NSMyself/homebrew-weatherlight/releases/download/v0.11.0/weatherlight-0.11.0-arm64.zip"
-  sha256 "bcbeed480f1434811d16f8e74c307e657fb5c36df6c3f013af3f936bd99fb913"
+  url "https://github.com/NSMyself/homebrew-weatherlight/releases/download/v0.13.0/weatherlight-0.13.0-arm64.zip"
+  sha256 "7aa9babdbe3523510fb5b7a4b27847a74d5fddeb648e3d95549186c565fe611c"
   license :cannot_represent
-  version "0.11.0"
+  version "0.13.0"
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
